@@ -37,9 +37,7 @@ def print_header(title):
     print("=" * 44)
 
 
-# ---------------------------------------------------------------------
 # Entry / Authentication screens
-# ---------------------------------------------------------------------
 
 def welcome_screen():
     print_header("Find your favourite coffee")
@@ -78,9 +76,7 @@ def sign_in_flow():
         return None
 
 
-# ---------------------------------------------------------------------
 # Home / Menu browsing
-# ---------------------------------------------------------------------
 
 def browse_menu(user):
     while True:
@@ -176,9 +172,7 @@ def view_item(user):
     pause()
 
 
-# ---------------------------------------------------------------------
 # Cart & Checkout
-# ---------------------------------------------------------------------
 
 def view_cart(user):
     print_header("Your Cart")
@@ -258,9 +252,7 @@ def checkout_flow(user):
     pause()
 
 
-# ---------------------------------------------------------------------
 # Favourites / Profile / History
-# ---------------------------------------------------------------------
 
 def view_favorites(user):
     print_header("Favourites")
@@ -296,9 +288,7 @@ def view_order_history(user):
     pause()
 
 
-# ---------------------------------------------------------------------
 # Guest mode (browse only, no cart persistence)
-# ---------------------------------------------------------------------
 
 def guest_browse():
     print_header("Guest Mode - Browsing Only")
@@ -308,9 +298,7 @@ def guest_browse():
     pause()
 
 
-# ---------------------------------------------------------------------
 # Main loop
-# ---------------------------------------------------------------------
 
 def main():
     print("Welcome to BREWLY - your favourite coffee, one command away.")
