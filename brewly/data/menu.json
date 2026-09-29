@@ -1,0 +1,21 @@
+{
+  "items": [
+    {"id": "ESP01", "name": "Espresso",       "category": "Espresso",  "price": 129, "rating": 4.6, "description": "Bold shot of pure, concentrated coffee."},
+    {"id": "ESP02", "name": "Americano",      "category": "Espresso",  "price": 159, "rating": 4.5, "description": "Classic espresso with hot water, bold taste."},
+    {"id": "LAT01", "name": "Latte",          "category": "Latte",     "price": 189, "rating": 4.7, "description": "Smooth espresso with steamed milk."},
+    {"id": "LAT02", "name": "Vanilla Latte",  "category": "Latte",     "price": 199, "rating": 4.6, "description": "Latte infused with a hint of vanilla."},
+    {"id": "CAP01", "name": "Cappuccino",     "category": "Cappuccino","price": 179, "rating": 4.6, "description": "Perfect blend of espresso, milk and foam."},
+    {"id": "CAP02", "name": "Caramel Cappuccino", "category": "Cappuccino", "price": 209, "rating": 4.7, "description": "Cappuccino with a caramel drizzle."},
+    {"id": "MOC01", "name": "Mocha",          "category": "Mocha",     "price": 209, "rating": 4.8, "description": "Rich chocolate meets espresso and milk."},
+    {"id": "MOC02", "name": "White Mocha",    "category": "Mocha",     "price": 219, "rating": 4.5, "description": "White chocolate mocha, smooth and sweet."},
+    {"id": "CLD01", "name": "Iced Latte",     "category": "Cold Brew", "price": 199, "rating": 4.4, "description": "Chilled espresso and milk over ice."},
+    {"id": "CLD02", "name": "Caramel Iced Latte", "category": "Cold Brew", "price": 229, "rating": 4.6, "description": "Iced latte with cold and rich caramel."}
+  ],
+  "promo_codes": {
+    "BREW10": {"type": "percent", "value": 10, "description": "10% off your order"},
+    "FLAT50": {"type": "flat", "value": 50, "description": "Flat Rs.50 off"},
+    "FIRSTCUP": {"type": "percent", "value": 20, "description": "20% off for first-time customers"}
+  },
+  "delivery_fee": 40,
+  "free_delivery_above": 500
+}

@@ -1,0 +1,2 @@
+# BREWLY uses only the Python standard library (json, hashlib, uuid, re, os, unittest).
+# No external dependencies are required.
